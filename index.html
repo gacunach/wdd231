@@ -1,55 +1,51 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriela Acuña</title>
-    <meta name="description" content="Gabriela Acuña page">
-    <meta name="author" content="Gabriela Acuña">
-    <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'">
+    <title>WDD 231 Web - Frontend Development - Gabriela Acuña</title>
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/index-large.css">
+    <link rel="stylesheet" href="styles/index-large.css" media="screen and (min-width: 500px)">
     <script src="scripts/index.js" defer></script>
 </head>
 
 <body>
     <header>
-        <section class="name">
-            <h1>Gabriela Acuña</h1>
-            <img src="images/profile.jpg" alt="Gabriela Acuña" width="150" class="gaby">
-        </section>
-        <div class="hamburger" onclick="toggleMenu()">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+        <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic" width="150px">
+        <h1>Gabriela Acuña - WDD 231</h1>
         <nav>
-            <a href="https://www.linkedin.com/in/gabriela-acu%C3%B1a-403a76252/" target="_blank">Linkedin</a>
-            <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng&idp=37#p37"
-                target="_blank">Scripture</a>
-            <a href="">Final Project</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">GitHub Profile</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section class="card">
-            <h2 class="valpo">Valparaíso, Chile</h2>
-            <p>
-                Valparaíso is a major city, commune, seaport and naval base facility in Valparaíso Region, Chile.
-                Greater Valparaíso is the second-largest populace in the country, as well as the second-largest city in
-                the Greater Valparaíso metro area (behind Viña del Mar).
-            </p>
-            <img src="images/chile-flag.jpg" alt="Chilean Flag" width="200" class="chile">
+        <section class="course-work">
+            <h2>Course Work</h2>
+            <ul>
+                <li>•</li>
+                <li>•</li>
+                <li>•</li>
+            </ul>
         </section>
-        <section class="card">
-            <h2 class="top">Web Dev Resources</h2>
-            <nav>
-                <a href="https://www.w3schools.com/">W3Schools</a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web">MDN</a>
-                <a href="https://developer.chrome.com/docs/devtools?hl=zh-tw">DevTools</a>
-                <a href="https://coolors.co/2364aa-3da5d9-73bfb8-fec601-ea7317">Coolors</a>
-            </nav>
+        <section class="location">
+            <h2>Valparaíso, Chile</h2>
+            <img src="images/chile-flag.jpg" alt="Valparaíso" width="200px">
+            <p>Valparaíso, Chile</p>
+        </section>
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filters">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <div class="courses" id="course-list">  
+            </div>
         </section>
     </main>
     <footer>

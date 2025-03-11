@@ -1,97 +1,17 @@
 @media screen and (min-width: 500px) {
-
-    h1 {
-        text-align: center;
-        margin-top: 1.5rem;
-        font-family: var(--heading-font);
-        margin-bottom: 0%;
-        margin-left: 38rem;
-
+    nav ul li {
+        display: inline-block;
     }
-
-    header img {
-        margin-left: 0%;
-        margin-right: 50rem;
+    .course-work, .location, .certificate {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
     }
-
-    .name {
-        display: flex;
-        align-items: center;
-        background-color: #0E9594;
-        margin-bottom: 0%;
-        justify-content:space-around;     
+    .certificate {
+        width: 90%;
     }
-
-    header a {
-        display: block;
-        padding: 2.5rem;
-        width: 100%;
-        background-color: #127475;
-        color: antiquewhite;
-    }
-
-    header nav {
-        display: flex;
-        margin-top: 0%;
-        font-family: var(--paragraph-font);
-    }
-
-    header nav a:hover {
-        color: #1b1b8f;
-    }
-
-    main {
-        display: grid;
-        grid-template-columns: 50rem 1fr auto;
-        padding: 5rem;
-        width: 90%
-    }
-
-    .card {
-        border: solid 2px;
-    }
-
-    .top {
-        background-color: #0E9594;
-        margin-top: 0%;
-        border-bottom: solid 1px;
-    }
-
-    p {
-        font-family: var(--paragraph-font);
-    }
-
-    section nav {
-        font-family: var(--paragraph-font);
-    }
-
-    section nav a {
-        display: block;
-        align-self: center;
-        font-size: large;
-    }
-
-    section p {
-        margin-left: .5rem;
-    }
-
-    section img {
-        margin-left: 19rem;
-    }
-
-    h2 {
-        text-align: center;
-        font-family: var(--heading-font);
-    }
-
-    .valpo {
-        border-bottom: solid .5px;
-    }
-
-    footer {
-        text-align: center;
-        font-family: var(--paragraph-font);
-        background-color: #127475;
-        color: antiquewhite;
+    .courses button {
+        display: inline-block;
+        width: 30%;
     }
 }
