@@ -3,9 +3,9 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-}
+    }
 
-header img, h1 {
+header {
     background-color: #173757;
     color: white;
     padding: 10px;
