@@ -1,0 +1,65 @@
+[
+    {
+        "name": "ValpoTech Solutions",
+        "address": "123 Tech Street, Valparaíso, Chile",
+        "phone": "+56 32 123 4567",
+        "website": "https://valpotech.cl",
+        "image": "valpotech.png",
+        "membership": 3,
+        "description": "Leading software development and IT solutions provider."
+    },
+    {
+        "name": "Marítima Valparaíso",
+        "address": "456 Ocean Drive, Valparaíso, Chile",
+        "phone": "+56 32 987 6543",
+        "website": "https://maritimavalpo.cl",
+        "image": "maritima.png",
+        "membership": 2,
+        "description": "Shipping and logistics company specializing in international trade."
+    },
+    {
+        "name": "Café del Puerto",
+        "address": "789 Harbor Avenue, Valparaíso, Chile",
+        "phone": "+56 32 555 7890",
+        "website": "https://cafedelpuerto.cl",
+        "image": "cafedelpuerto.png",
+        "membership": 1,
+        "description": "A cozy coffee shop with the best view of the port."
+    },
+    {
+        "name": "Andes Adventure Tours",
+        "address": "321 Mountain Road, Valparaíso, Chile",
+        "phone": "+56 32 444 9876",
+        "website": "https://andesadventure.cl",
+        "image": "andesadventure.png",
+        "membership": 3,
+        "description": "Offering exciting tours and hikes in the Andes Mountains."
+    },
+    {
+        "name": "Artesanías Valpo",
+        "address": "567 Artisan Alley, Valparaíso, Chile",
+        "phone": "+56 32 333 5678",
+        "website": "https://artesaniasvalpo.cl",
+        "image": "artesaniasvalpo.png",
+        "membership": 1,
+        "description": "Handmade crafts and souvenirs from local artisans."
+    },
+    {
+        "name": "Hotel Mirador",
+        "address": "654 Skyline Blvd, Valparaíso, Chile",
+        "phone": "+56 32 222 8765",
+        "website": "https://hotelmirador.cl",
+        "image": "hotelmirador.png",
+        "membership": 2,
+        "description": "Luxury hotel with a panoramic view of the ocean."
+    },
+    {
+        "name": "Valpo Green Energy",
+        "address": "890 Renewable St, Valparaíso, Chile",
+        "phone": "+56 32 111 2345",
+        "website": "https://valpogreen.cl",
+        "image": "valpogreen.png",
+        "membership": 3,
+        "description": "Innovative renewable energy solutions for a sustainable future."
+    }
+]
